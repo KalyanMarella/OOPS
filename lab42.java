@@ -59,7 +59,7 @@ class Student extends Person
 	}
 	public void printGrade()
 	{
-		for(int i=0;i<grade.size();i++)
+		for(int i=0;i<this.grade.size();i++)
 			System.out.println(this.grade.get(i));
 	}
 	public double getAverageGrade()
